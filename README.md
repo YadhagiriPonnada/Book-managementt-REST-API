@@ -103,9 +103,25 @@ id,title,author,publishedYear
 ## Running Tests
 
 ```bash
-npm test
+npm run dev
 ```
 
-## License
+## Postman Upload Instructions:
+- Method: POST
+- URL: http://localhost:5000/books/import
+- Body: form-data
+ - Key: file (type: File)
+ - Value: (Upload your .csv file)
+Running Tests
+$ npm test
 
-ISC 
+
+
+
+## Author
+Developed by 
+## Ponnada Yadhagiri
+8074849052
+ponnadayadhagiri111@gmail.com
+yadhagiri9577@gmail.com
+
